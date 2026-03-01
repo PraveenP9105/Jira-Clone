@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "*",
+  origin: "https://jira-clone-xi-green.vercel.app/",
 }));
 app.use(express.json());
 
